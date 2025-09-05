@@ -3,7 +3,7 @@ Node-Code-Canvas an intuitive web application that allows you to design flowchar
 
 Access here: https://node-code-canvas.onrender.com/
 
-✨ Features
+## Features
 Visual Flowchart Editor: An interactive canvas to drag, drop, and connect nodes to design your workflow.
 
 CRUD Operations: Full Create, Read, Update, and Delete functionality for your flowcharts.
@@ -17,7 +17,7 @@ Clean & Documented Code: Generates code with comments, error handling, and appro
 RESTful API: A well-structured backend API for managing all flowchart data.
 
 
-📦 Installation & Setup
+## Installation & Setup
 Follow these steps to get a local copy up and running.
 
 Prerequisites
@@ -30,13 +30,11 @@ A Groq API key
 Replace the placeholder Groq API key in app.py with your own:
 GROQ_API_KEY = "YOUR_ACTUAL_GROQ_API_KEY_HERE"
 For security best practices, consider using environment variables instead of hardcoding the key.
-
 3. Run the Application
-
 python app.py
 The application will start on http://0.0.0.0:5000 or http://localhost:5000. Open this URL in your browser.
 
-🚀 How to Use
+## How to Use
 Create a New Flowchart: Click "New Flowchart" and give it a name.
 Design Your Workflow:
 Drag nodes from the sidebar onto the canvas.
